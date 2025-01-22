@@ -4,21 +4,18 @@ body{
     box-sizing: border-box;
 }
 
-.debug{
-    header{
-        background-color: orange;
-        
-    }
-    
-}
+
 header{
     height: 70px;
     width: 100%;
-    position: fixed;
-
 }
 
-
+.debug{
+    .container{
+        background-color: orange;
+        height: 400px;
+    }
+}
 .d-flex{
     display: flex;
     justify-content: space-between;
@@ -28,6 +25,7 @@ header{
     margin-left: 5px;
     margin-right: 5px;
 }
+
 
 ul{
     list-style: none;
@@ -43,6 +41,7 @@ a:hover{
     text-decoration: underline;
 }
 
+
 .button{
     background-color:#0061fe;
     color: white;
@@ -52,19 +51,17 @@ a:hover{
 
 h1{
     font-size: 60px;
+    padding-top: 40px;
 }
 
 
-.fa-solid{
-    padding-top: 20px;
-    font-size: 50px;
-}
+
 
 .container-jumbo{ 
   display: flex;
    justify-content: center;
    background-color: #b4d0e6;
-   height: 500px;
+   height: 600px;
 }
 
 .card-title{
@@ -74,24 +71,86 @@ h1{
 
 .row{
     display: flex;
+    padding-top: 40px;
+
+    a{
+        color: #0061fe;
+        text-decoration: underline;
+    }
     
 }
 .col-5{
     width: calc(100% / 12 * 5);
+
+    .arrow{
+        color: black;
+        padding-top: 10px;
+        font-size: 40px;
+    }
 }
 
 .col-7{
-    width: calc(100% / 12 * 7);
+    width: calc(100% / 12 * 7); 
+}
 
-   
+.col-4{
+    width: calc(100% / 12 * 4);
+    border: 1px solid black;
+    height: 800px;
 }
 
 .padding{
-    padding-top: 20px;
+    padding: 20px;
 }
 
 .container{
-    width: 80%;
+    
+    width: 60%;
+    margin: auto;
+    padding-top: 100px;
+    
+    h3{
+        font-size: 40px;
+
+    }
+    span{
+        font-size: 20px;
+        padding: 10px;
+    }
 }
 
+.sng{
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid black;
+   
+    div{
+        padding: 3px;
+    }
+}
 
+.mese{
+    color: grey;
+    padding-bottom: 20px;
+}
+
+.piani{
+    padding:20px;
+
+    a{
+        color: blue;
+    }
+    
+    button{
+        margin: 20px;
+    }
+}
+
+.fa-solid{
+    font-size: 10px;
+}
+
+.check{
+    font-size: 20px;
+    color: blue;
+}
