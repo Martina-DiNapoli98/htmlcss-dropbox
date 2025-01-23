@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     min-width: 1440px;
+    font-family: sans-serif;
 }
 
 
@@ -59,8 +60,6 @@ h1{
 }
 
 
-
-
 .container-jumbo{ 
   display: flex;
    justify-content: center;
@@ -86,9 +85,6 @@ h1{
 
 .col-2{
     width: calc(100% / 12 * 2);
-
-    
-
 }
 
 .col-5{
@@ -144,7 +140,7 @@ h1{
     
     width: 60%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 80px;
     
     h3{
         font-size: 40px;
@@ -198,8 +194,8 @@ text-align: center;
 .conteiner-2{
     margin-top:40px ;
     width: 60%;
-   
 }
+
 .row-2{
     display: flex;
     padding-left: 20px;
@@ -254,10 +250,40 @@ text-align: center;
 
     h3{
         text-align: center;
+        padding-bottom: 10px;
     }
 
     h4{
         font-size: 20px;
     }
 
+}
+
+.clienti{
+    color: blue;
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+
+    ul{
+        color: white;
+        list-style: none;
+        
+    }
+    li{
+       font-size: 15px;
+    }
+    a{
+        color: white;
+    }
+    p{
+        color: grey;
+        padding-left: 20px;
+        
+    }
+}
+.info{
+    display: flex;
 }
